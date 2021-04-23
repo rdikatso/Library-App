@@ -1,0 +1,161 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    display: inline;
+}
+i{
+    font-size: 3rem;
+    color: #003366;
+}
+.heading-div{
+    margin-top:2rem;
+    margin-bottom:4rem;
+    text-align: center;
+
+}
+
+form {
+    border: 1px solid #c6c7cc;
+    border-radius: 10px;
+    width: 40%;
+    padding: 1.5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    color: #003366;
+    
+}
+form h3{
+    text-align: center;
+
+}
+form .btn {
+    display: block;
+    background-color: #003366;
+    border: 0;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.btn-cancel{
+    display: block;
+    background-color: red;
+    opacity: 0.75;
+    color: #fff;
+    width:40%;
+    padding: 0.50rem;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    margin:0;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border:none;
+}
+
+.card{
+    width:80%;
+    height:300px;
+    background: linear-gradient(to top left,#003366, #5c6bc0);
+    background-repeat: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/*The popup form - hidden by default*/
+.form-popup{
+    display:none;
+    position: fixed;
+    bottom:0;
+    z-index:9;
+    top: 10px;
+    overflow:scroll;
+    
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap:20px;
+    justify-items: center;
+}
+.title{
+    height:80%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    
+}
+.author{
+    height:80%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 0.75rem;;
+}
+button{
+    width: 40%;
+    border:none;
+    border-radius:0.25rem;
+    padding: 0.25rem 0.5rem;
+    line-height: 1.2;
+    margin: 0.25rem;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+button.read{
+    background-color:green;
+    color:white
+}
+/*button.unread{
+    background-color:white;
+    color:green;
+}*/
+button.remove{
+    background-color:#c62828;
+    color: white;
+}
+.add{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+button.add-book{
+    background-color: #003366;
+    width:40%;
+    height:75px;
+    border-radius: 15px;
+    font-family:'Montserrat', sans-serif;;
+    font-size: 1.5rem;
+    color:white;
+    cursor:pointer;
+    
+}
+/*.title h1{
+    font-size: 0.75rem;;
+}*/
